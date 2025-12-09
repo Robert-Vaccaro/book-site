@@ -91,9 +91,9 @@ export default function BooksSection() {
                 </div>
               </a>
               <div className="p-6">
-                <h3 className="mb-4 text-xl font-semibold text-zinc-900">
+                {/* <h3 className="mb-4 text-xl font-semibold text-zinc-900">
                   {book.title}
-                </h3>
+                </h3> */}
                 <div className="mb-4 flex flex-col gap-2">
                   {book.description && (
                     <button
