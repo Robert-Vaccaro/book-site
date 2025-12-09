@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "J. S. Kade - Author",
   description: "Official website of J. S. Kade, author of Guardians of Exile and other works.",
+  icons: {
+    icon: "/profpic.PNG",
+    shortcut: "/profpic.PNG",
+    apple: "/profpic.PNG",
+  },
 };
 
 export default function RootLayout({

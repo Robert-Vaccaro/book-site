@@ -72,7 +72,7 @@ export default function BooksSection() {
           {filteredBooks.map((book) => (
             <div
               key={book.id}
-              className="group w-full max-w-sm overflow-hidden rounded-lg bg-white/90 shadow-lg backdrop-blur-sm transition-all duration-300 hover:shadow-2xl"
+              className="group w-full max-w-sm overflow-hidden rounded-2xl bg-white/90 shadow-lg backdrop-blur-sm transition-all duration-300 hover:shadow-2xl"
             >
               <a
                 href={book.amazonLink}
